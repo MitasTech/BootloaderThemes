@@ -47,7 +47,7 @@ function check_root() {
 }
 
 function select_theme() {
-    themes=('Vimix' 'Cyberpunk' 'Arcade by Mitas' 'fallout' 'CyberRe' 'Quit')
+    themes=('Vimix' 'Cyberpunk' 'Shodan' 'fallout' 'CyberRe' 'Arcade' 'ArchTheme' 'Quit')
 
     PS3=$(echo_prompt '\nChoose The Theme You Want: ')
     select THEME_NAME in "${themes[@]}"; do
@@ -58,16 +58,21 @@ function select_theme() {
             'Cyberpunk')
                 splash 'Installing Cyberpunk Theme'
                 break;;
-            'Arcade by Mitas')
-		splash 'Installing Arcade by Mitas theme'
-		break;;
+            'Shodan')
+                splash 'Installing Shodan Theme'
+                break;;
             'fallout')
                 splash 'Installing fallout Theme'
                 break;;
             'CyberRe')
                 splash 'Installing CyberRe Theme'
                 break;;
-	    
+	    'Arcade')
+		splash 'Installing Arcade'
+		break;;
+	    'ArchTheme')
+		splash 'Installing ArchTheme'
+		break;;
             'Quit')
                 echo_info 'User requested exit'
                 exit 0;;
