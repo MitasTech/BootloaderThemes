@@ -22,15 +22,15 @@ Install Bootloader Themes with ease.
 Simply enter following commands in your terminal :
 
 ```bash
-$ git clone https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes
-$ cd Top-5-Bootloader-Themes
+$ git clone https://github.com/MitasTech/Mitas-Bootloader_Themes
+$ cd Mitas-Bootloader_Themes
 $ sudo ./install.sh
 ```
 
 💻 Dependencies
 ---------------
 
-**ChrisTitusTech Top 5 Bootloader Themes** requires the following dependencies:
+**MitasTech Bootloader Themes** requires the following dependencies:
 
 - git
 
@@ -71,11 +71,11 @@ $ git config --global core.editor 'vim'
 🤝 Contributing
 ---------------
 
-Thank you for your interest in contributing to **ChrisTitusTech Top 5 Bootloader Themes**.
+Thank you for your interest in contributing to **MitasTech Bootloader Themes**.
 
 Please review the [code of conduct](./CODE_OF_CONDUCT.md) and [contribution guidelines](./CONTRIBUTING.md) before starting to work on any features.
 
-If you want to open an issue, please check first if it was not [reported already](https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes/issues) before creating a new one.
+If you want to open an issue, please check first if it was not [reported already](https://github.com/MitasTech/Mitas-Bootloader_Themes/issues) before creating a new one.
 
 📜 License
 ----------

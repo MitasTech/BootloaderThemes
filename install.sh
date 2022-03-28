@@ -47,7 +47,7 @@ function check_root() {
 }
 
 function select_theme() {
-    themes=('Vimix' 'Cyberpunk' 'Shodan' 'fallout' 'CyberRe' 'Quit')
+    themes=('Vimix' 'Cyberpunk' 'Shodan' 'fallout' 'CyberRe' 'Arcade by Mitas' 'Quit')
 
     PS3=$(echo_prompt '\nChoose The Theme You Want: ')
     select THEME_NAME in "${themes[@]}"; do
@@ -67,6 +67,9 @@ function select_theme() {
             'CyberRe')
                 splash 'Installing CyberRe Theme'
                 break;;
+	    'Arcade by Mitas')
+		splash 'Installing Arcade by Mitas theme'
+		break;;
             'Quit')
                 echo_info 'User requested exit'
                 exit 0;;
@@ -149,7 +152,7 @@ function update_grub() {
 }
 
 function main() {
-    splash 'ChrisTechTips Grub2 Theme Installer'
+    splash 'MitasTech Grub2 Theme Installer'
 
     check_root
     select_theme
@@ -159,7 +162,7 @@ function main() {
     config_grub
     update_grub
 
-    echo_success 'All done !'
+    echo_success 'All done! Enjoy!'
 }
 
 main
