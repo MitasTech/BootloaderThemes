@@ -33,10 +33,16 @@ $ sudo ./install.sh
 
 ### 🔖 git
 
-#### 🐧 Install git (Linux)
+#### 🐧 Install git (Debian-Based)
 
 ```bash
-$ sudo apt-get install --assume-yes git
+$ sudo apt install git
+```
+
+#### 🐧 Install git (Arch-Based)
+
+```bash
+$ sudo pacman -Sy git
 ```
 
 #### 🏁 Install git (Windows)
