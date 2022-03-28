@@ -6,15 +6,10 @@
 ![Bash CI](https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes/workflows/bash_unit%20CI/badge.svg)
 ![Shellcheck CI](https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes/workflows/Shellcheck%20CI/badge.svg)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=ChrisTitusTech.Top-5-Bootloader-Themes)
-
-ChrisTitusTech Top 5 Bootloader Themes
-======================================
+Modified ChrisTitusTech Top 5 Bootloader Themes by MitasTech Including my Custom Bootloader
+=====================================================================
 
 Install Bootloader Themes with ease.
-
-- Chris Titus Tech Channel : [https://www.youtube.com/user/homergfunk](https://www.youtube.com/user/homergfunk)
-- Chris Titus Tech YouTube Video : [Bootloader Themes | Install & Configuration](https://www.youtube.com/watch?v=BAyzHP1Cqb0)
-- Full Walkthrough : [https://christitus.com/bootloader-themes](https://christitus.com/bootloader-themes)
 
 🚀 Installation
 ---------------
