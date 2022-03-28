@@ -47,7 +47,7 @@ function check_root() {
 }
 
 function select_theme() {
-    themes=('Vimix' 'Cyberpunk' 'Shodan' 'fallout' 'CyberRe' 'Arcade' 'ArchTheme' 'MrRobot' 'Quit')
+    themes=('Vimix' 'Cyberpunk' 'Shodan' 'fallout' 'CyberRe' 'Arcade' 'ArchTheme' 'Quit')
 
     PS3=$(echo_prompt '\nChoose The Theme You Want: ')
     select THEME_NAME in "${themes[@]}"; do
@@ -72,9 +72,6 @@ function select_theme() {
 		break;;
 	    'ArchTheme')
 		splash 'Installing ArchTheme'
-		break;;
-	    'MrRobot')
-		splash 'Installing MrRobot'
 		break;;
             'Quit')
                 echo_info 'User requested exit'
