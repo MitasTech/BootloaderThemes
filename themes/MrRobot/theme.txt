@@ -1,3 +1,7 @@
+# GRUB Arcade linux theme
+# Designed for 1920x1080
+# By Stelios Mitas
+
 # Global properties
 title-text: ""
 desktop-image: "background.png"
@@ -10,25 +14,49 @@ terminal-width: "100%"
 terminal-height: "100%"
 terminal-border: "0"
 
-
-
-# Boot menu
+# Show the boot menu
 + boot_menu {
-  left = 17%
-  top = 32%
-  width = 21%
-  height = 40%
+  left = 10%
+  top = 25%
+  width = 16%
+  height = 30%
   item_font = "Tomb_Raider Regular 28"
-  item_color = "#FFE8E8"
-  selected_item_color = "#B50202"
-  icon_width = 32
-  icon_height = 32
-  item_height = 48
-  item_spacing = 12
-  item_padding = 4
-  item_icon_space = 20
-  item_pixmap_style = "item_*.png"
-  selected_item_pixmap_style = "selected_item_*.png"
+  item_color = "#cccccccc"
+  selected_item_color = "#dbd442"
+  item_height = 24
+  item_padding = 5
+  item_spacing = 10
+  item_align = center
+  selected_item_pixmap_style = "select_*.png"
 }
+
+# Select OS:
++ label {
+  top = 35%
+  left = 25%
+  width = 20%
+  align = "left"
+  text = "Select OS:"
+  color = "#cccccccc"
+  font = "Tomb_Raider Regular 28"
+}
+
+# Show progress
++ progress_bar {
+  id = "__timeout__"
+  left = 0%
+  width = 100%
+  top = 99%
+  height = 31
+  show_text = false
+  text = ""
+  fg_color = "#cccccccc"
+  bg_color = "#dbd442"
+  border_color = "#dbd442"
+  highlight_style = "progress_highlight_*.png"
+}
+
+
+
 
 
