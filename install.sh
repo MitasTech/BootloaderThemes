@@ -77,9 +77,6 @@ function select_theme() {
 	    'BlackOps')
 		splash 'Installing BlackOps'
 		break;;
-	    'BlackOpsKitsios')
-	    	splash 'Installing BlackOpsKitsios'
-		break;;
             'Quit')
                 echo_info 'User requested exit'
                 exit 0;;
