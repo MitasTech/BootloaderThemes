@@ -45,9 +45,10 @@ function check_root() {
         exit 1
     fi
 }
+#'Cyberpunk' 'Shodan' 'fallout'
 
 function select_theme() {
-    themes=('Vimix' 'Cyberpunk' 'Shodan' 'fallout' 'CyberRe' 'Arcade' 'ArchTheme' 'BlackOps' 'BlackOpsKitsios' 'Quit')
+    themes=('Arcade' 'Vimix' 'BlackOps' 'CyberRe' 'ArchTheme' 'Quit')
 
     PS3=$(echo_prompt '\nChoose The Theme You Want: ')
     select THEME_NAME in "${themes[@]}"; do
