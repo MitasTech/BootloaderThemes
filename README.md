@@ -6,7 +6,9 @@
 ![Bash CI](https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes/workflows/bash_unit%20CI/badge.svg)
 ![Shellcheck CI](https://github.com/ChrisTitusTech/Top-5-Bootloader-Themes/workflows/Shellcheck%20CI/badge.svg)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=ChrisTitusTech.Top-5-Bootloader-Themes)
-Modified ChrisTitusTech Top 5 Bootloader Themes by MitasTech Including my Custom Bootloader
+Modified ChrisTitusTech Top 5 Bootloader Themes by MitasTech Including my Custom Bootloader.
+
+Enjoy my Arcade Bootloader Theme!
 =====================================================================
 
 Install Bootloader Themes with ease.
@@ -17,8 +19,8 @@ Install Bootloader Themes with ease.
 Simply enter following commands in your terminal :
 
 ```bash
-$ git clone https://github.com/MitasTech/Mitas-Bootloader_Themes
-$ cd Mitas-Bootloader_Themes
+$ git clone https://github.com/MitasTech/BootloaderThemes
+$ cd BootloaderThemes
 $ sudo ./install.sh
 ```
 
